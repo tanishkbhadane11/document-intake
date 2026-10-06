@@ -4,8 +4,15 @@ A conversational LLM-powered document intake application that interviews users, 
 
 > **Note:** This application is fictional and is not legal advice.
 
-![Status](https://img.shields.io/badge/Status-Technical_Test_/_Take--Home_Assignment-blue)
-![Tech Stack](https://img.shields.io/badge/Tech_Stack-React_|_Express_|_TypeScript_|_Zod-blueviolet)
+**Built by Tanishk Bhadane**  
+**Wenup Engineering Technical Test — September 2026**
+
+## Verification
+
+- ✅ Backend: 129/129 automated tests passing
+- ✅ Backend TypeScript/build: passing
+- ✅ Frontend TypeScript check: passing
+- ✅ Frontend production build: passing
 
 ### Key Capabilities
 
@@ -21,7 +28,7 @@ A conversational LLM-powered document intake application that interviews users, 
 
 ## Application Preview
 
-![Application Preview](./docs/screenshot.png)
+![Document Intake Assistant](docs/screenshot.png)
 
 ## Architecture
 
