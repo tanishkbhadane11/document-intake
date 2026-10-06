@@ -29,15 +29,13 @@ The application is built with a clear separation of concerns, divided into a Rea
 
 ```mermaid
 flowchart LR
-    A[React Frontend] --> B[Express API]
-    B --> C[Conversation Orchestrator]
-    C --> D[LLM Service]
-    C --> E[Structured State]
-    E --> F[Document Generator]
-    C --> E
-    E --> F
-    C --> B
-    B --> A
+    UI[React Frontend] --> API[Express API]
+    API --> ORCH[Conversation Orchestrator]
+    ORCH --> LLM[LLM Service]
+    ORCH --> STATE[Structured State]
+    STATE --> DOC[Document Generator]
+    DOC --> API
+    API --> UI
 ```
 
 - **Frontend/UI**: A React SPA that handles the dual-pane layout, capturing user input, rendering the conversation history, and displaying the live state and document previews.
